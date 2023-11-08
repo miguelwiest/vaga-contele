@@ -21,9 +21,11 @@ Link para instalação: https://reactnative.dev/docs/environment-setup
 <br>
 será necessário instalar o ngrok e executar o comando abaixo para expor a API localmente.
 <br>
-```sh
+
+    ```sh
     docker run --net=host -it -e NGROK_AUTHTOKEN=xyz ngrok/ngrok:latest http 8081
-```
+    ```
+  
 <br>
 caso não possua uma conta no ngrok, crie uma e substitua o `xyz` pelo seu token.
 <br>
