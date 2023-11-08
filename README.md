@@ -66,6 +66,11 @@ Para executar o projeto react-native, siga os passos abaixo:
     ```sh
     npx react-native run-android
     ```
+   ou
+   PS: Caso esteja utilizando um mac ou uma máquina virtual com MacOS, execute o comando abaixo:
+    ```sh
+    npx react-native run-ios
+    ```
    
 ## Executando o banco de dados:
 
